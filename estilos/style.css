@@ -1,3 +1,46 @@
 @charset "UTF-8";
 
 /* link: https://tailwind-lobe-tour.vercel.app/ */
+
+:root{
+    --cor1: #04ddb2;
+    --cor2: #333;
+    --cor4: #fff;
+    --cor5: #767676;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor4);
+}
+
+body{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img{
+    max-width: 100px;
+    padding: 20px 0px 0px 10px;
+}
+
+header > nav{
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+header > nav > a{
+    color: var(--cor5);
+    text-decoration: none;
+    padding: 5px;
+}
+
+header > nav > a:hover{
+    color: var(--cor2);
+}
