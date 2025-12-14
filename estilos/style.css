@@ -44,3 +44,29 @@ header > nav > a{
 header > nav > a:hover{
     color: var(--cor2);
 }
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main > h1{
+    font-size: 2.5em;
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 30px;
+}
+
+main > h1 > span#tour{
+    color: var(--cor1);
+}
+
+main > p{
+    align-self: center;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 350;
+    color: var(--cor5);
+    max-width: 400px;
+    padding-top: 10px;
+}
