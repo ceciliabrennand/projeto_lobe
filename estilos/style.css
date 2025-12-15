@@ -86,8 +86,10 @@ main > div#img > img{
 }
 
 main > div#img > img:hover{
-    max-width: 430px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.168);
+    max-width: 420px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.088);
+    transform: translate(-10px, -20px);
+    transition-duration: 0.2s;
 }
 
 main > a#botao{
