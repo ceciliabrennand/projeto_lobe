@@ -55,6 +55,8 @@ main > h1{
     color: var(--cor2);
     text-align: center;
     padding-top: 30px;
+    max-width: 300px;
+    align-self: center;
 }
 
 main > h1 > span#tour{
@@ -67,6 +69,39 @@ main > p{
     font-size: 1.1em;
     font-weight: 350;
     color: var(--cor5);
+    padding: 10px 50px;
+}
+
+main > div#img{
+    display: flex;
+    align-self: center;
     max-width: 400px;
-    padding-top: 10px;
+    margin: 50px 20px 20px 20px;
+}
+
+main > div#img > img{
+    max-width: 400px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+}
+
+main > div#img > img:hover{
+    max-width: 430px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.168);
+}
+
+main > a#botao{
+    margin-top: 30px;
+    padding-top: 8px;
+    color: #fff;
+    background-color: var(--cor1);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    align-self: center;
+    border: 1px solid var(--cor1);
+    border-radius: 50px;
 }
