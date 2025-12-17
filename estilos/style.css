@@ -86,9 +86,9 @@ main > div#img > img{
 }
 
 main > div#img > img:hover{
-    max-width: 420px;
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.088);
-    transform: translate(-10px, -20px);
+    
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.088);
+    transform: translate(-1px, -1px);
     transition-duration: 0.2s;
 }
 
@@ -106,4 +106,43 @@ main > a#botao{
     align-self: center;
     border: 1px solid var(--cor1);
     border-radius: 50px;
+}
+
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+footer > img{
+    max-width: 100px;
+    padding: 20px 0px 0px 10px;
+}
+
+footer > div.tnavs{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+footer > div.tnavs > div.nav{
+    padding: 20px;
+}
+
+footer > div.tnavs > div.nav > nav{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer > div.tnavs > div.nav > nav > h2{
+    color: var(--cor2);
+}
+
+footer > div.tnavs > div.nav > nav > a{
+    text-decoration: none;
+    color: var(--cor5);
+    padding: 5px;
+}
+
+footer > p{
+    color: var(--cor5);
 }
