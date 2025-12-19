@@ -84,13 +84,13 @@ main > div#img > img{
     max-width: 90%;
     border: 1px solid transparent;
     border-radius: 40px;
+    
+    transition: transform 0.2s;
 }
 
 main > div#img > img:hover{
-    
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.088);
-    transform: translate(-1px, -1px);
-    transition-duration: 0.2s;
+    transform: scale(1.1);   
 }
 
 main > a#botao{
@@ -108,6 +108,12 @@ main > a#botao{
     align-self: center;
     border: 1px solid var(--cor1);
     border-radius: 50px;
+
+    transition: transform 0.2s;
+}
+
+main > a#botao:hover{
+    transform: scale(1.2);
 }
 
 footer{
@@ -165,6 +171,11 @@ footer > nav#icones > a > i{
     background-color: var(--cor1);
     border: 10px solid var(--cor1);
     border-radius: 200px;
+    transition: transform 0.2s;
+}
+
+footer > nav#icones > a:hover > i{
+    transform: scale(1.2);
 }
 
 footer > p{
