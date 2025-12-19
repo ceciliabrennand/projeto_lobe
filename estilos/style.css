@@ -150,6 +150,23 @@ footer > div.tnavs > div.nav > nav > a:hover{
     color: var(--cor2);
 }
 
+footer > nav#icones{
+    align-self: flex-start;
+    padding: 20px 0px 0px 46px;
+}
+
+footer > nav#icones > a{
+    padding: 5px;
+}
+
+footer > nav#icones > a > i{
+    font-size: 20px;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    border: 10px solid var(--cor1);
+    border-radius: 200px;
+}
+
 footer > p{
     font-size: .9em;
     color: var(--cor2);
