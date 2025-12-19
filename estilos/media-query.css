@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px) {
+    header > nav{
+        margin-right: 100px;
+    }
+
+    header > nav > a{
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-right: 50px;
+    }
+
+    main > h1{
+        font-size: 4.8em;
+        font-weight: bold;
+        max-width: 600px;
+    }
+
+    main > p{
+        font-size: 2em;
+        max-width: 650px;
+    }
+
+    main > a#botao{
+        width: 200px;
+        padding-top: 18px;
+        padding-bottom: 9px;
+        font-size: 1.4em;
+    }
+
+    footer{
+        flex-flow: row nowrap;
+    }
+
+    footer > img{
+        order: 0;
+    }
+
+    footer > div#tnavs{
+        order: 1;
+
+    }
+    
+    footer > p{
+        order: 0;
+    }
+}
