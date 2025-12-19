@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
     header > nav{
         margin-right: 100px;
     }
@@ -22,6 +22,10 @@
         max-width: 650px;
     }
 
+    main > div#img > img{
+        max-width: 80%;
+    }
+
     main > a#botao{
         width: 200px;
         padding-top: 18px;
@@ -31,15 +35,22 @@
 
     footer{
         flex-flow: row nowrap;
+        justify-content: space-evenly;
     }
 
-    footer > img{
+    footer > div#lobe{
         order: 0;
+
     }
 
     footer > div#tnavs{
         order: 1;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
 
+    footer > div#tnavs > div.nav{
+        padding-top: 0;
     }
     
     footer > p{

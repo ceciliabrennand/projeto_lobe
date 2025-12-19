@@ -122,10 +122,25 @@ footer{
     align-items: center;
 }
 
-footer > img{
+footer > div#lobe{
+    display: flex;
+    flex-flow: column wrap;
+    order: 5;
+}
+
+footer > div#lobe > img{
     max-width: 100px;
-    padding: 20px 0px 0px 10px;
+    padding: 20px 0px 0px 25px;
     order: 3;
+}
+
+footer > div#lobe > p{
+    font-size: .9em;
+    color: var(--cor2);
+    line-height: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    order: 4;
 }
 
 footer > div.tnavs{
@@ -178,11 +193,3 @@ footer > nav#icones > a:hover > i{
     transform: scale(1.2);
 }
 
-footer > p{
-    font-size: .9em;
-    color: var(--cor2);
-    line-height: 40px;
-    margin-bottom: 50px;
-    text-align: center;
-    order: 4;
-}
