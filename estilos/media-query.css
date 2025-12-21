@@ -36,6 +36,7 @@
     footer{
         flex-flow: row nowrap;
         justify-content: space-evenly;
+        padding-bottom: 60px;
     }
 
     footer > div#lobe{
@@ -45,20 +46,21 @@
 
     footer > div#lobe > img{
         padding-left: 0;
+        padding-top: 0;
     }
 
     footer > div#lobe > p{
         text-align: left;
     }
 
-    footer > div#tnavs{
-        order: 1;
-        padding: 10px;
-        justify-content: space-evenly;
+    footer > div.tnavs{
+        padding: 0px 0px 0px 40px;
     }
 
     footer > div.tnavs > div.nav{
-        padding-top: 0;
+        padding-top: 30px;
+        padding-right: 50px;
+        
     }
 
     footer > div.tnavs > div.nav > nav > a{
@@ -67,5 +69,8 @@
         font-weight: bold;
     }
     
+    footer > nav#icones{
+        padding-top: 35px;
+    }
     
 }
