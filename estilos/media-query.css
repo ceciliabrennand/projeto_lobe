@@ -40,7 +40,15 @@
 
     footer > div#lobe{
         order: 0;
+        padding-left: 0;
+    }
 
+    footer > div#lobe > img{
+        padding-left: 0;
+    }
+
+    footer > div#lobe > p{
+        text-align: left;
     }
 
     footer > div#tnavs{
@@ -49,11 +57,15 @@
         justify-content: space-evenly;
     }
 
-    footer > div#tnavs > div.nav{
+    footer > div.tnavs > div.nav{
         padding-top: 0;
     }
-    
-    footer > p{
-        order: 0;
+
+    footer > div.tnavs > div.nav > nav > a{
+        padding: 20px 0px 0px 0px;
+        max-width: 70px;
+        font-weight: bold;
     }
+    
+    
 }
