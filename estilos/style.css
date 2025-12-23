@@ -45,6 +45,10 @@ header > nav > a:hover{
     color: var(--cor2);
 }
 
+header > a#botaoheader{
+    display: none;
+}
+
 main{
     display: flex;
     flex-flow: column wrap;

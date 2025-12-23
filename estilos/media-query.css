@@ -74,3 +74,40 @@
     }
     
 }
+
+@media screen and (min-width: 1500px) {
+
+    header{
+        justify-content: space-evenly;
+    }
+
+    header > img{
+        transform: translateX(-170px);
+    }
+
+    header > nav{
+        margin-right: 0px;
+    }
+
+    header > a#botaoheader{
+        display: block;
+        color: #fff;
+        background-color: var(--cor1);
+        font-size: 1.3em;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        height: 35px;
+        width: 120px;
+        align-self: center;
+        border: 1px solid var(--cor1);
+        border-radius: 50px;
+
+        transition: 0.2s;
+    }
+
+    header > a#botaoheader:hover{
+    transform: scale(1.2);
+}
+}
