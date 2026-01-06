@@ -23,6 +23,7 @@
             <a href="#" class="nav">Help</a>   
         </nav>
         <a href="#" id="botaoheader">Download</a>
+        <i class="fa-solid fa-bars" id="iconemenu" onclick="clicar"></i>
     </header>
 
     <div id="menu">
@@ -95,7 +96,10 @@
     </footer>
 
     <script>
-
+        function clicar() {
+            var nav = window.document.getElementById('menu')
+            nav.style.display = 'flex'
+        }
     </script>
 
 </body>

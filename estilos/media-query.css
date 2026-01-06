@@ -2,13 +2,25 @@
 
 @media screen and (min-width: 1000px) {
     header > nav{
+        display: block;
         margin-right: 100px;
+        padding-top: 15px;
     }
 
     header > nav > a{
         font-size: 1.1em;
         font-weight: bold;
-        padding-right: 50px;
+        padding: 5px 50px 5px 5px;
+        color: var(--cor5);
+        text-decoration: none;
+    }
+
+    header > nav > a:hover{
+    color: var(--cor2);
+    }
+
+    header > i#iconemenu{
+        display: none;
     }
 
     main > h1{
