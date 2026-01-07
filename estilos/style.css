@@ -39,9 +39,15 @@ header > a#botaoheader{
 }
 
 header > i#iconemenu{
-    font-size: 30px;
-    padding: 0px 30px;
+    margin: 0px 30px;
     transform: translateY(5px);
+}
+
+header > i#iconemenu:hover{
+    background-color: rgba(128, 128, 128, 0.122);
+    border: 10px solid rgba(128, 128, 128, 0.122);
+    border-radius: 200px;
+    cursor: pointer;
 }
 
 div#menu{
