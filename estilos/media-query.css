@@ -23,6 +23,14 @@
         display: none;
     }
 
+    div#menu > nav{
+        display: none;
+    }
+
+    div#menu > a{
+        display: none;
+    }
+
     main{
         position: absolute;
     }
