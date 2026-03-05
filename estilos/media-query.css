@@ -31,8 +31,6 @@
         display: none;
     }
 
-   
-
     main > h1{
         font-size: 4.8em;
         font-weight: bold;
@@ -78,12 +76,18 @@
 
     footer > div.tnavs{
         padding: 0px 0px 0px 40px;
+        display: flex;
+        flex-flow: row nowrap
     }
 
     footer > div.tnavs > div.nav{
         padding-top: 30px;
         padding-right: 50px;
         
+    }
+
+    footer > div.tnavs > div.nav > nav{
+        display: flex;
     }
 
     footer > div.tnavs > div.nav > nav > a{

@@ -199,7 +199,8 @@ footer > div#lobe > p{
 
 footer > div.tnavs{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    align-self: flex-start;
 }
 
 footer > div.tnavs > div.nav{
@@ -207,7 +208,7 @@ footer > div.tnavs > div.nav{
 }
 
 footer > div.tnavs > div.nav > nav{
-    display: flex;
+    display: none;
     flex-flow: column wrap;
 }
 
@@ -227,7 +228,7 @@ footer > div.tnavs > div.nav > nav > a:hover{
 
 footer > nav#icones{
     align-self: flex-start;
-    padding: 20px 0px 0px 46px;
+    padding: 20px 0px 0px 15px;
 }
 
 footer > nav#icones > a{
